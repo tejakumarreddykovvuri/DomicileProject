@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".references">
+
+    <TextView
+        android:id="@+id/Locations_HIC"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/HIC"
+        android:importantForAutofill="no"
+        android:text="@string/HIC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_AP" />
+
+    <TextView
+        android:id="@+id/Locations_CIC"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/CIC"
+        android:importantForAutofill="no"
+        android:text="@string/CIC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_LL" />
+
+    <TextView
+        android:id="@+id/Locations_LL"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/LL"
+        android:importantForAutofill="no"
+        android:text="@string/LL"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_TC" />
+
+    <TextView
+        android:id="@+id/Locations_AP"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/AP"
+        android:importantForAutofill="no"
+        android:text="@string/AP"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_CIC" />
+
+    <TextView
+        android:id="@+id/Locations_TC"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/TC"
+        android:importantForAutofill="no"
+        android:text="@string/TC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_gyms" />
+
+    <TextView
+        android:id="@+id/Locations_gyms"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/Gyms"
+        android:importantForAutofill="no"
+        android:text="@string/Gyms"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_clubs" />
+
+    <TextView
+        android:id="@+id/Locations_clubs"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/Clubs"
+        android:importantForAutofill="no"
+        android:text="@string/Clubs"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_EC" />
+
+    <TextView
+        android:id="@+id/Locations_EC"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/EC"
+        android:importantForAutofill="no"
+        android:text="@string/EC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_GL" />
+
+    <TextView
+        android:id="@+id/Locations_GL"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/GL"
+        android:importantForAutofill="no"
+        android:text="@string/GL"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_banks" />
+
+    <TextView
+        android:id="@+id/Locations_banks"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/banks"
+        android:importantForAutofill="no"
+        android:text="@string/banks"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Locations_EI" />
+
+    <TextView
+        android:id="@+id/All_Locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locations_all"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <TextView
+        android:id="@+id/Ref_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/logout"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/All_Locations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toEndOf="@+id/Ref_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/Ref_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/back"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/All_Locations"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <TextView
+        android:id="@+id/Locations_EI"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/Educational_institutes"
+        android:importantForAutofill="no"
+        android:text="@string/Educational_institutes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/All_Locations" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

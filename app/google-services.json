@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633734437111",
+    "project_id": "domicile-project",
+    "storage_bucket": "domicile-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633734437111:android:eb3e1dd5d52b0ef11f1bf2",
+        "android_client_info": {
+          "package_name": "com.example.domicileproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633734437111-6ju8u8rrc52p3fu6n63e6han948anese.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9_9inSzv6pT9T1LJDNS10Kip2o1vPiVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633734437111-6ju8u8rrc52p3fu6n63e6han948anese.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

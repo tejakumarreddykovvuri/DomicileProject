@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationalInstitutions">
+
+    <TextView
+        android:id="@+id/EI_VU"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/VU"
+        android:text="@string/VU"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_UM"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_UM"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/UM"
+        android:text="@string/UM"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_UD"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_UD"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/UD"
+        android:text="@string/UD"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_SU"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_SU"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/SU"
+        android:text="@string/SU"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_RU"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_MU"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/MU"
+        android:text="@string/MU"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_LTU"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_RU"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/RU"
+        android:text="@string/RU"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_MU"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_LTU"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/LT"
+        android:text="@string/LT"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_FU"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_FU"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/FU"
+        android:text="@string/FU"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI_Deakin"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/EI_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/back"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/EI"
+        app:layout_constraintEnd_toStartOf="@+id/EI"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <TextView
+        android:id="@+id/EI_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/logout"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/EI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toEndOf="@+id/EI_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/EI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EI"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <TextView
+        android:id="@+id/EI_Deakin"
+        android:layout_width="398dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/deakin"
+        android:importantForAutofill="no"
+        android:text="@string/EI_deakin"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EI" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

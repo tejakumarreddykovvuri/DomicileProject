@@ -24,68 +24,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.682" />
 
-    <EditText
-        android:id="@+id/UA_city"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:background="@drawable/input_bg"
-        android:ems="10"
-        android:hint="@string/city"
-        android:inputType="textPersonName"
-        android:paddingStart="20dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UA_sn"
-        app:layout_constraintVertical_bias="0.046"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/UA_sr"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:background="@drawable/input_bg"
-        android:ems="10"
-        android:hint="@string/sr"
-        android:inputType="textPersonName"
-        android:paddingStart="20dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UA_city"
-        app:layout_constraintVertical_bias="0.069"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/UA_country"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:background="@drawable/input_bg"
-        android:ems="10"
-        android:hint="@string/country"
-        android:inputType="textPersonName"
-        android:paddingStart="20dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UA_sr"
-        app:layout_constraintVertical_bias="0.073"
-        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/UA_pin"
@@ -94,6 +32,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:hint="@string/pin"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:paddingStart="20dp"
         android:paddingLeft="20dp"
@@ -103,10 +42,32 @@
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UA_country"
-        app:layout_constraintVertical_bias="0.093"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/UA_sr"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <EditText
+        android:id="@+id/UA_sr"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/sr"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UA_sn"
+        app:layout_constraintVertical_bias="0.043" />
 
     <Button
         android:id="@+id/UA_save"
@@ -131,6 +92,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:hint="@string/sn"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:paddingStart="20dp"
         android:paddingLeft="20dp"
@@ -140,10 +102,33 @@
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/UA_usn"
-        app:layout_constraintVertical_bias="0.048"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/UA_usn"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/usn"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UA"
+        app:layout_constraintVertical_bias="0.044" />
 
     <TextView
         android:id="@+id/UA"
@@ -157,27 +142,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.093" />
-
-    <EditText
-        android:id="@+id/UA_usn"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="18dp"
-        android:background="@drawable/input_bg"
-        android:ems="10"
-        android:hint="@string/usn"
-        android:inputType="textPersonName"
-        android:paddingStart="20dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UA"
-        app:layout_constraintVertical_bias="0.045"
-        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

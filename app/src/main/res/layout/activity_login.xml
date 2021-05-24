@@ -85,8 +85,8 @@
 
     <EditText
         android:id="@+id/Login_password"
-        android:layout_width="344dp"
-        android:layout_height="44dp"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
         android:background="@drawable/input_bg"
         android:ems="10"
         android:hint="@string/tf_pass"

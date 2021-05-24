@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.domicileproject">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,10 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DomicileProject">
-        <activity android:name=".EducationalInstitutions"></activity>
+        <activity android:name=".Telecomms" />
+        <activity android:name=".web" />
+        <activity android:name=".banks" />
+        <activity android:name=".EducationalInstitutions" />
         <activity android:name=".updatedaddress" />
         <activity android:name=".references" />
-        <activity android:name=".locations" />
         <activity android:name=".forgotpassword" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">

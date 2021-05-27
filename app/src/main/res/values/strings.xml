@@ -26,6 +26,8 @@
     <string name="skip">Skip</string>
     <string name="comm">CommonWealth Bank</string>
     <string name="optus">Optus</string>
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">second_fragment_label</string>
     <string name="Dandenong_Library">Dandenong Library</string>
     <string name="references">References</string>
     <string name="logout">Logout</string>

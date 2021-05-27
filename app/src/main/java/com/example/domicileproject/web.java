@@ -59,7 +59,9 @@ public class web extends AppCompatActivity{
 
             //writing and passing javascript codes through a variable
             //Give your username and password of Deakin University in the username and password fields
-            final String js = "javascript:document.getElementById('username').value='';" + " document.getElementById('password').value='';" + "document.getElementsByTagName('button')[0].click();";
+            final String js = "javascript:document.getElementById('username').value='';"
+                    + " document.getElementById('password').value='';"
+                    + "document.getElementsByTagName('button')[0].click();";
 
             //Using the setWebViewClient for webView
             webView.setWebViewClient(new WebViewClient() {
